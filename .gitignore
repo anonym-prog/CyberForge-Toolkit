@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Reports
+reports/*.json
+reports/*.txt
+*.json
+*.txt
+
+# Wordlists (keep structure, ignore large files)
+wordlists/*.txt
+!wordlists/.gitkeep
+
+# Config
+.env
+*.conf
+!config/tools.conf
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temp
+tmp/
+temp/
